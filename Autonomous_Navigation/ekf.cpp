@@ -13,13 +13,13 @@ Eigen::Matrix<double, 3, 2> getB(double yaw, double dt) {
 	return B;
 }
 
-Eigen::Vector3d X_t(Eigen::Matrix3d& A_t_minus_1, Eigen::Vector3d& X_t_minus_1, Eigen::Vector2d& u_t_minus_1, Eigen::Vector3d& sigma_p, double yaw, double dt) {
+Eigen::Vector3d X(Eigen::Matrix3d& A_t_minus_1, Eigen::Vector3d& X_t_minus_1, Eigen::Vector2d& u_t_minus_1, Eigen::Vector3d& sigma_p, double yaw, double dt) {
 
 	Eigen::Matrix<double, 3, 2> B_t_minus_1 = getB(yaw, dt);
 
-	Eigen::Vector3d X_t = (A_t_minus_1 * X_t_minus_1) + (B_t_minus_1 * u_t_minus_1) + sigma_p; //State of the rover at time-step t
+	Eigen::Vector3d X = (A_t_minus_1 * X_t_minus_1) + (B_t_minus_1 * u_t_minus_1) + sigma_p; //State of the rover at time-step t
 	
-	return X_t;
+	return X;
 }
 
 int main() {
@@ -32,9 +32,7 @@ int main() {
 
         Eigen::Vector3d sigma_p; //Process Noise (Tweak by trial and error)
 
-        A_t_minus_1 << 1, 0, 0,
-               0, 1, 0,
-               0, 0, 1; //(I is the ideal state, need to account for gravity on a downhill)
+        A_t_minus_1 << 1, 0, 0, 0, 1, 0, 0, 0, 1; //(I is the ideal state, need to account for gravity on a downhill)
 
         X_t_minus_1 << 0, 0, 0; //Rover starts from origin
 
@@ -44,6 +42,10 @@ int main() {
 
         double yaw = 0, dt = 1; //Initial yaw angle and time-step
 
+	Eigen::Vector3d X_t;
+	
+	X_t = X(A_t_minus_1, X_t_minus_1, u_t_minus_1, sigma_p, yaw, dt);
+	
 	std::cout << X_t << std::endl;
 
 	return 0;
