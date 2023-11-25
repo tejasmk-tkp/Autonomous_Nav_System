@@ -1,0 +1,3 @@
+[submodule "Autonomous_Navigation/src/Autonomous_Navigation/src/matplotlib-cpp"]
+	path = Autonomous_Navigation/src/Autonomous_Navigation/src/matplotlib-cpp
+	url = https://github.com/lava/matplotlib-cpp.git

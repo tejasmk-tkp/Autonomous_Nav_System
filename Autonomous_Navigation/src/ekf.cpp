@@ -3,6 +3,9 @@
 #include <cmath>
 #include <unistd.h>
 //#include "gnuplot-iostream.h"
+#include <matplotlibcpp.h>
+
+namespace plt = matplotlibcpp;
 
 Eigen::Matrix<double, 3, 2> getB(double yaw, double dt) {
 	
@@ -82,7 +85,9 @@ Eigen::Matrix3d P_C(Eigen::Matrix3d K_t, Eigen::Matrix3d H_t, Eigen::Matrix3d P_
 
 int main() {
 
-	//Initialization	
+	//Initialization
+	
+	plt::ion();	
 
         Eigen::Matrix3d A_t_minus_1; //The A matrix expresses how the state of the system [x position,y position,yaw angle γ] changes from t-1 to t when no control command is executed (I is the ideal state, need to account for gravity on a downhill)
 
@@ -162,13 +167,17 @@ int main() {
 
 		//Plot on cartesian plane
 				
-		/*double x_position = X_t[0];
+		double x = X_t[0];
 
-		double y_position = X_t[1];
+		double y = X_t[1];
 
-		double yaw_angle = X_t[2];
+		double yaw = X_t[2];
 
-		gp << "set xlabel 'X Position'\n";
+		std::vector<double> x_vec = {x};
+
+		std::vector<double> y_vec = {y};
+
+		/*gp << "set xlabel 'X Position'\n";
 
 		gp << "set ylabel 'Y Position'\n";
 
@@ -177,6 +186,21 @@ int main() {
 		gp << "plot '-' with vectors title 'Rover Orientation'\n";
 
 		gp << x_position << " " << y_position << " " << cos(yaw_angle) << " " << sin(yaw_angle) << std::endl;*/
+		
+		plt::clf();
+
+		plt::scatter(x_vec, y_vec);
+		
+		double arrow_length = 0.01;
+
+		double arrow_end_x = x + arrow_length * cos(yaw);
+									
+		double arrow_end_y = y + arrow_length * sin(yaw);
+		
+		plt::arrow(x, y, (arrow_end_x - x), (arrow_end_y - y), "black");
+		
+		plt::pause(0.1);
+		plt::show();
 
 		usleep(10000);
 
