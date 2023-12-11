@@ -1,0 +1,24 @@
+[0.033s] Invoking command in '/home/tejasmk-tkp/Documents/Rudra/Interdomain/Rover/build/matplotlib_cpp': CONDA_PROMPT_MODIFIER=(rover_andes) /usr/bin/cmake --build /home/tejasmk-tkp/Documents/Rudra/Interdomain/Rover/build/matplotlib_cpp -- -j16 -l16
+[0.139s] [ 18%] Built target minimal
+[0.139s] [ 18%] Built target modern
+[0.139s] [ 18%] Built target xkcd
+[0.139s] [ 25%] Built target basic
+[0.139s] [ 31%] Built target fill_inbetween
+[0.140s] [ 37%] Built target animation
+[0.140s] [ 43%] Built target nonblock
+[0.140s] [ 50%] Built target fill
+[0.141s] [ 56%] Built target lines3d
+[0.143s] [ 62%] Built target subplot2grid
+[0.146s] [ 84%] Built target bar
+[0.146s] [ 84%] Built target contour
+[0.146s] [ 87%] Built target spy
+[0.147s] [ 87%] Built target colorbar
+[0.147s] [ 93%] Built target surface
+[0.147s] [100%] Built target update
+[0.202s] Invoked command in '/home/tejasmk-tkp/Documents/Rudra/Interdomain/Rover/build/matplotlib_cpp' returned '0': CONDA_PROMPT_MODIFIER=(rover_andes) /usr/bin/cmake --build /home/tejasmk-tkp/Documents/Rudra/Interdomain/Rover/build/matplotlib_cpp -- -j16 -l16
+[0.251s] Invoking command in '/home/tejasmk-tkp/Documents/Rudra/Interdomain/Rover/build/matplotlib_cpp': CONDA_PROMPT_MODIFIER=(rover_andes) /usr/bin/cmake --install /home/tejasmk-tkp/Documents/Rudra/Interdomain/Rover/build/matplotlib_cpp
+[0.254s] -- Install configuration: ""
+[0.256s] -- Up-to-date: /home/tejasmk-tkp/Documents/Rudra/Interdomain/Rover/install/matplotlib_cpp/include/matplotlibcpp.h
+[0.257s] -- Up-to-date: /home/tejasmk-tkp/Documents/Rudra/Interdomain/Rover/install/matplotlib_cpp/lib/matplotlib_cpp/cmake/matplotlib_cppTargets.cmake
+[0.257s] -- Up-to-date: /home/tejasmk-tkp/Documents/Rudra/Interdomain/Rover/install/matplotlib_cpp/lib/matplotlib_cpp/cmake/matplotlib_cppConfig.cmake
+[0.258s] Invoked command in '/home/tejasmk-tkp/Documents/Rudra/Interdomain/Rover/build/matplotlib_cpp' returned '0': CONDA_PROMPT_MODIFIER=(rover_andes) /usr/bin/cmake --install /home/tejasmk-tkp/Documents/Rudra/Interdomain/Rover/build/matplotlib_cpp

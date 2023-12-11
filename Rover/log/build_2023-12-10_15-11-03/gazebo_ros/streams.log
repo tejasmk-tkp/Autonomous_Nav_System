@@ -1,0 +1,61 @@
+[0.027s] Invoking command in '/home/tejasmk-tkp/Documents/Rudra/Interdomain/Rover/build/gazebo_ros': AMENT_PREFIX_PATH=/home/tejasmk-tkp/Documents/Rudra/Interdomain/Rover/install/gazebo_msgs:/home/tejasmk-tkp/Documents/Rudra/Interdomain/Rover/install/gazebo_dev:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tejasmk-tkp/Documents/Rudra/Interdomain/Rover/install/gazebo_msgs:/home/tejasmk-tkp/Documents/Rudra/Interdomain/Rover/install/gazebo_dev:/opt/ros/iron CONDA_PROMPT_MODIFIER=(rover_andes) LD_LIBRARY_PATH=/home/tejasmk-tkp/Documents/Rudra/Interdomain/Rover/install/gazebo_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/tejasmk-tkp/Documents/Rudra/Interdomain/Rover/install/gazebo_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/tejasmk-tkp/Documents/Rudra/Interdomain/Rover/build/gazebo_ros -- -j16 -l16
+[0.119s] [  3%] Built target gtest_main
+[0.119s] [  3%] Built target ament_cmake_python_copy_scripts
+[0.120s] [  6%] Built target gtest
+[0.147s] [ 13%] Built target mock_gazebo_ros_factory
+[0.147s] [ 13%] Built target mock_robot_state_publisher
+[0.167s] [ 21%] Built target gazebo_ros_utils
+[0.167s] [ 23%] Built target gazebo_ros_node
+[0.186s] [ 25%] [32mBuilding CXX object test/CMakeFiles/create_node_without_init.dir/plugins/create_node_without_init.cpp.o[0m
+[0.186s] [ 26%] [32mBuilding CXX object test/CMakeFiles/ros_world_plugin.dir/plugins/ros_world_plugin.cpp.o[0m
+[0.186s] [ 28%] [32mBuilding CXX object CMakeFiles/gazebo_ros_init.dir/src/gazebo_ros_init.cpp.o[0m
+[0.186s] [ 35%] [32mBuilding CXX object CMakeFiles/gazebo_ros_state.dir/src/gazebo_ros_state.cpp.o[0m
+[0.187s] [ 35%] [32mBuilding CXX object test/CMakeFiles/multiple_nodes.dir/plugins/multiple_nodes.cpp.o[0m
+[0.187s] [ 35%] [32mBuilding CXX object CMakeFiles/gazebo_ros_force_system.dir/src/gazebo_ros_force_system.cpp.o[0m
+[0.187s] [ 36%] [32mBuilding CXX object CMakeFiles/gazebo_ros_properties.dir/src/gazebo_ros_properties.cpp.o[0m
+[0.187s] [ 35%] [32mBuilding CXX object test/CMakeFiles/args_init.dir/plugins/args_init.cpp.o[0m
+[0.187s] [ 38%] [32mBuilding CXX object test/CMakeFiles/test_gazebo_ros_joint_effort.dir/test_gazebo_ros_joint_effort.cpp.o[0m
+[0.187s] [ 40%] [32mBuilding CXX object test/CMakeFiles/test_gazebo_ros_init.dir/test_gazebo_ros_init.cpp.o[0m
+[0.187s] [ 41%] [32mBuilding CXX object test/CMakeFiles/sdf_node.dir/plugins/sdf_node.cpp.o[0m
+[0.187s] [ 43%] [32mBuilding CXX object CMakeFiles/gazebo_ros_factory.dir/src/gazebo_ros_factory.cpp.o[0m
+[0.191s] [ 46%] Built target test_conversions
+[0.191s] [ 48%] [32mBuilding CXX object test/CMakeFiles/test_gazebo_ros_link_wrench.dir/test_gazebo_ros_link_wrench.cpp.o[0m
+[0.193s] [ 50%] [32mBuilding CXX object test/CMakeFiles/test_gazebo_ros_factory.dir/test_gazebo_ros_factory.cpp.o[0m
+[0.205s] [ 51%] [32mBuilding CXX object test/CMakeFiles/test_gazebo_ros_properties.dir/test_gazebo_ros_properties.cpp.o[0m
+[0.302s] running egg_info
+[0.303s] writing scripts.egg-info/PKG-INFO
+[0.303s] writing dependency_links to scripts.egg-info/dependency_links.txt
+[0.303s] writing top-level names to scripts.egg-info/top_level.txt
+[0.305s] reading manifest file 'scripts.egg-info/SOURCES.txt'
+[0.306s] writing manifest file 'scripts.egg-info/SOURCES.txt'
+[0.343s] [ 51%] Built target ament_cmake_python_build_scripts_egg
+[0.365s] [ 53%] [32mBuilding CXX object test/CMakeFiles/test_gazebo_ros_state.dir/test_gazebo_ros_state.cpp.o[0m
+[15.655s] [01m[Kc++:[m[K [01;31m[Kfatal error: [m[KKilled signal terminated program cc1plus
+[15.658s] compilation terminated.
+[15.658s] gmake[2]: *** [CMakeFiles/gazebo_ros_force_system.dir/build.make:76: CMakeFiles/gazebo_ros_force_system.dir/src/gazebo_ros_force_system.cpp.o] Error 1
+[15.658s] gmake[1]: *** [CMakeFiles/Makefile2:435: CMakeFiles/gazebo_ros_force_system.dir/all] Error 2
+[15.658s] gmake[1]: *** Waiting for unfinished jobs....
+[24.835s] [01m[Kc++:[m[K [01;31m[Kfatal error: [m[KKilled signal terminated program cc1plus
+[24.845s] compilation terminated.
+[24.845s] gmake[2]: *** [CMakeFiles/gazebo_ros_state.dir/build.make:76: CMakeFiles/gazebo_ros_state.dir/src/gazebo_ros_state.cpp.o] Error 1
+[24.845s] gmake[1]: *** [CMakeFiles/Makefile2:409: CMakeFiles/gazebo_ros_state.dir/all] Error 2
+[27.434s] [01m[Kc++:[m[K [01;31m[Kfatal error: [m[KKilled signal terminated program cc1plus
+[27.436s] compilation terminated.
+[27.436s] gmake[2]: *** [test/CMakeFiles/sdf_node.dir/build.make:76: test/CMakeFiles/sdf_node.dir/plugins/sdf_node.cpp.o] Error 1
+[27.437s] gmake[1]: *** [CMakeFiles/Makefile2:565: test/CMakeFiles/sdf_node.dir/all] Error 2
+[27.675s] [01m[Kc++:[m[K [01;31m[Kfatal error: [m[KKilled signal terminated program cc1plus
+[27.679s] compilation terminated.
+[27.680s] gmake[2]: *** [test/CMakeFiles/test_gazebo_ros_properties.dir/build.make:76: test/CMakeFiles/test_gazebo_ros_properties.dir/test_gazebo_ros_properties.cpp.o] Error 1
+[27.681s] gmake[1]: *** [CMakeFiles/Makefile2:739: test/CMakeFiles/test_gazebo_ros_properties.dir/all] Error 2
+[35.416s] [01m[Kc++:[m[K [01;31m[Kfatal error: [m[KKilled signal terminated program cc1plus
+[35.417s] compilation terminated.
+[35.418s] gmake[2]: *** [CMakeFiles/gazebo_ros_init.dir/build.make:76: CMakeFiles/gazebo_ros_init.dir/src/gazebo_ros_init.cpp.o] Error 1
+[35.419s] gmake[1]: *** [CMakeFiles/Makefile2:330: CMakeFiles/gazebo_ros_init.dir/all] Error 2
+[41.677s] [01m[Kc++:[m[K [01;31m[Kfatal error: [m[KKilled signal terminated program cc1plus
+[41.678s] compilation terminated.
+[41.680s] gmake[2]: *** [CMakeFiles/gazebo_ros_properties.dir/build.make:76: CMakeFiles/gazebo_ros_properties.dir/src/gazebo_ros_properties.cpp.o] Error 1
+[41.682s] gmake[1]: *** [CMakeFiles/Makefile2:383: CMakeFiles/gazebo_ros_properties.dir/all] Error 2
+[44.806s] [01m[Kc++:[m[K [01;31m[Kfatal error: [m[KKilled signal terminated program cc1plus
+[44.811s] compilation terminated.
+[44.812s] gmake[2]: *** [test/CMakeFiles/test_gazebo_ros_state.dir/build.make:76: test/CMakeFiles/test_gazebo_ros_state.dir/test_gazebo_ros_state.cpp.o] Error 1
+[44.813s] gmake[1]: *** [CMakeFiles/Makefile2:768: test/CMakeFiles/test_gazebo_ros_state.dir/all] Error 2

@@ -1,0 +1,433 @@
+[0.443s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.443s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7fbc91c66c80>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fbc91c0d810>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fbc91c0d810>>)
+[0.464s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.465s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.465s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.465s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.465s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.465s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.465s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/tejasmk-tkp/Documents/Rudra/Interdomain/Rover'
+[0.465s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.465s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.465s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.465s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.465s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.465s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.465s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.465s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.465s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(src/Autonomous_Navigation) by extensions ['ignore', 'ignore_ament_install']
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(src/Autonomous_Navigation) by extension 'ignore'
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(src/Autonomous_Navigation) by extension 'ignore_ament_install'
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(src/Autonomous_Navigation) by extensions ['colcon_pkg']
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(src/Autonomous_Navigation) by extension 'colcon_pkg'
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(src/Autonomous_Navigation) by extensions ['colcon_meta']
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(src/Autonomous_Navigation) by extension 'colcon_meta'
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(src/Autonomous_Navigation) by extensions ['ros']
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(src/Autonomous_Navigation) by extension 'ros'
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(src/Autonomous_Navigation) by extensions ['cmake', 'python']
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(src/Autonomous_Navigation) by extension 'cmake'
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(src/Autonomous_Navigation) by extension 'python'
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(src/Autonomous_Navigation) by extensions ['python_setup_py']
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(src/Autonomous_Navigation) by extension 'python_setup_py'
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(src/Autonomous_Navigation/matplotlib-cpp) by extensions ['ignore', 'ignore_ament_install']
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(src/Autonomous_Navigation/matplotlib-cpp) by extension 'ignore'
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(src/Autonomous_Navigation/matplotlib-cpp) by extension 'ignore_ament_install'
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(src/Autonomous_Navigation/matplotlib-cpp) by extensions ['colcon_pkg']
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(src/Autonomous_Navigation/matplotlib-cpp) by extension 'colcon_pkg'
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(src/Autonomous_Navigation/matplotlib-cpp) by extensions ['colcon_meta']
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(src/Autonomous_Navigation/matplotlib-cpp) by extension 'colcon_meta'
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(src/Autonomous_Navigation/matplotlib-cpp) by extensions ['ros']
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(src/Autonomous_Navigation/matplotlib-cpp) by extension 'ros'
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(src/Autonomous_Navigation/matplotlib-cpp) by extensions ['cmake', 'python']
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(src/Autonomous_Navigation/matplotlib-cpp) by extension 'cmake'
+[0.473s] Level 1:colcon.colcon_core.package_identification:_identify(src/Autonomous_Navigation/matplotlib-cpp) by extension 'python'
+[0.473s] DEBUG:colcon.colcon_core.package_identification:Package 'src/Autonomous_Navigation/matplotlib-cpp' with type 'cmake' and name 'matplotlib_cpp'
+[0.473s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs) by extensions ['ignore', 'ignore_ament_install']
+[0.473s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs) by extension 'ignore'
+[0.473s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs) by extension 'ignore_ament_install'
+[0.473s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs) by extensions ['colcon_pkg']
+[0.473s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs) by extension 'colcon_pkg'
+[0.473s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs) by extensions ['colcon_meta']
+[0.473s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs) by extension 'colcon_meta'
+[0.473s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs) by extensions ['ros']
+[0.473s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs) by extension 'ros'
+[0.473s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs) by extensions ['cmake', 'python']
+[0.473s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs) by extension 'cmake'
+[0.473s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs) by extension 'python'
+[0.473s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs) by extensions ['python_setup_py']
+[0.473s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs) by extension 'python_setup_py'
+[0.473s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_dev) by extensions ['ignore', 'ignore_ament_install']
+[0.473s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_dev) by extension 'ignore'
+[0.473s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_dev) by extension 'ignore_ament_install'
+[0.473s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_dev) by extensions ['colcon_pkg']
+[0.473s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_dev) by extension 'colcon_pkg'
+[0.473s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_dev) by extensions ['colcon_meta']
+[0.473s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_dev) by extension 'colcon_meta'
+[0.474s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_dev) by extensions ['ros']
+[0.474s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_dev) by extension 'ros'
+[0.475s] DEBUG:colcon.colcon_core.package_identification:Package 'src/gazebo_ros_pkgs/gazebo_dev' with type 'ros.ament_cmake' and name 'gazebo_dev'
+[0.475s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.475s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_msgs) by extension 'ignore'
+[0.475s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_msgs) by extension 'ignore_ament_install'
+[0.475s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_msgs) by extensions ['colcon_pkg']
+[0.475s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_msgs) by extension 'colcon_pkg'
+[0.475s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_msgs) by extensions ['colcon_meta']
+[0.475s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_msgs) by extension 'colcon_meta'
+[0.475s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_msgs) by extensions ['ros']
+[0.475s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_msgs) by extension 'ros'
+[0.475s] DEBUG:colcon.colcon_core.package_identification:Package 'src/gazebo_ros_pkgs/gazebo_msgs' with type 'ros.ament_cmake' and name 'gazebo_msgs'
+[0.475s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_plugins) by extensions ['ignore', 'ignore_ament_install']
+[0.475s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_plugins) by extension 'ignore'
+[0.475s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_plugins) by extension 'ignore_ament_install'
+[0.475s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_plugins) by extensions ['colcon_pkg']
+[0.475s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_plugins) by extension 'colcon_pkg'
+[0.476s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_plugins) by extensions ['colcon_meta']
+[0.476s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_plugins) by extension 'colcon_meta'
+[0.476s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_plugins) by extensions ['ros']
+[0.476s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_plugins) by extension 'ros'
+[0.476s] DEBUG:colcon.colcon_core.package_identification:Package 'src/gazebo_ros_pkgs/gazebo_plugins' with type 'ros.ament_cmake' and name 'gazebo_plugins'
+[0.477s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_ros) by extensions ['ignore', 'ignore_ament_install']
+[0.477s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_ros) by extension 'ignore'
+[0.477s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_ros) by extension 'ignore_ament_install'
+[0.477s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_ros) by extensions ['colcon_pkg']
+[0.477s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_ros) by extension 'colcon_pkg'
+[0.477s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_ros) by extensions ['colcon_meta']
+[0.477s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_ros) by extension 'colcon_meta'
+[0.477s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_ros) by extensions ['ros']
+[0.477s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_ros) by extension 'ros'
+[0.478s] DEBUG:colcon.colcon_core.package_identification:Package 'src/gazebo_ros_pkgs/gazebo_ros' with type 'ros.ament_cmake' and name 'gazebo_ros'
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_ros_control) by extensions ['ignore', 'ignore_ament_install']
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_ros_control) by extension 'ignore'
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_ros_control) by extension 'ignore_ament_install'
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_ros_control) by extensions ['colcon_pkg']
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_ros_control) by extension 'colcon_pkg'
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_ros_control) by extensions ['colcon_meta']
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_ros_control) by extension 'colcon_meta'
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_ros_control) by extensions ['ros']
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_ros_control) by extension 'ros'
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_ros_control) by extensions ['cmake', 'python']
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_ros_control) by extension 'cmake'
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_ros_control) by extension 'python'
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_ros_control) by extensions ['python_setup_py']
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_ros_control) by extension 'python_setup_py'
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_ros_pkgs) by extensions ['ignore', 'ignore_ament_install']
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_ros_pkgs) by extension 'ignore'
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_ros_pkgs) by extension 'ignore_ament_install'
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_ros_pkgs) by extensions ['colcon_pkg']
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_ros_pkgs) by extension 'colcon_pkg'
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_ros_pkgs) by extensions ['colcon_meta']
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_ros_pkgs) by extension 'colcon_meta'
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_ros_pkgs) by extensions ['ros']
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_ros_pkgs) by extension 'ros'
+[0.479s] DEBUG:colcon.colcon_core.package_identification:Package 'src/gazebo_ros_pkgs/gazebo_ros_pkgs' with type 'ros.ament_cmake' and name 'gazebo_ros_pkgs'
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(src/urdf) by extensions ['ignore', 'ignore_ament_install']
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(src/urdf) by extension 'ignore'
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(src/urdf) by extension 'ignore_ament_install'
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(src/urdf) by extensions ['colcon_pkg']
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(src/urdf) by extension 'colcon_pkg'
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(src/urdf) by extensions ['colcon_meta']
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(src/urdf) by extension 'colcon_meta'
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(src/urdf) by extensions ['ros']
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(src/urdf) by extension 'ros'
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(src/urdf) by extensions ['cmake', 'python']
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(src/urdf) by extension 'cmake'
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(src/urdf) by extension 'python'
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(src/urdf) by extensions ['python_setup_py']
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(src/urdf) by extension 'python_setup_py'
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(src/urdf/meshes) by extensions ['ignore', 'ignore_ament_install']
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(src/urdf/meshes) by extension 'ignore'
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(src/urdf/meshes) by extension 'ignore_ament_install'
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(src/urdf/meshes) by extensions ['colcon_pkg']
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(src/urdf/meshes) by extension 'colcon_pkg'
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(src/urdf/meshes) by extensions ['colcon_meta']
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(src/urdf/meshes) by extension 'colcon_meta'
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(src/urdf/meshes) by extensions ['ros']
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(src/urdf/meshes) by extension 'ros'
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(src/urdf/meshes) by extensions ['cmake', 'python']
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(src/urdf/meshes) by extension 'cmake'
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(src/urdf/meshes) by extension 'python'
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(src/urdf/meshes) by extensions ['python_setup_py']
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(src/urdf/meshes) by extension 'python_setup_py'
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(src/urdf/meshes/sus) by extensions ['ignore', 'ignore_ament_install']
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(src/urdf/meshes/sus) by extension 'ignore'
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(src/urdf/meshes/sus) by extension 'ignore_ament_install'
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(src/urdf/meshes/sus) by extensions ['colcon_pkg']
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(src/urdf/meshes/sus) by extension 'colcon_pkg'
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(src/urdf/meshes/sus) by extensions ['colcon_meta']
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(src/urdf/meshes/sus) by extension 'colcon_meta'
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(src/urdf/meshes/sus) by extensions ['ros']
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(src/urdf/meshes/sus) by extension 'ros'
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(src/urdf/meshes/sus) by extensions ['cmake', 'python']
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(src/urdf/meshes/sus) by extension 'cmake'
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(src/urdf/meshes/sus) by extension 'python'
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(src/urdf/meshes/sus) by extensions ['python_setup_py']
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(src/urdf/meshes/sus) by extension 'python_setup_py'
+[0.480s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.480s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.480s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.480s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.480s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.502s] INFO:colcon.colcon_metadata.metadata.colcon_pkg:Updating descriptor of package 'src/gazebo_ros_pkgs/gazebo_dev' from colcon.pkg: {'dependencies': ['Gazebo']}
+[0.502s] INFO:colcon.colcon_metadata.metadata.colcon_pkg:Updating descriptor of package 'src/gazebo_ros_pkgs/gazebo_plugins' from colcon.pkg: {'dependencies': ['Gazebo']}
+[0.503s] INFO:colcon.colcon_metadata.metadata.colcon_pkg:Updating descriptor of package 'src/gazebo_ros_pkgs/gazebo_ros' from colcon.pkg: {'dependencies': ['Gazebo']}
+[0.522s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.523s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.529s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/path/to/your/gazebo/installation' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.536s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 281 installed packages in /opt/ros/iron
+[0.536s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.580s] Level 5:colcon.colcon_core.verb:set package 'gazebo_dev' build argument 'cmake_args' from command line to 'None'
+[0.580s] Level 5:colcon.colcon_core.verb:set package 'gazebo_dev' build argument 'cmake_target' from command line to 'None'
+[0.580s] Level 5:colcon.colcon_core.verb:set package 'gazebo_dev' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.580s] Level 5:colcon.colcon_core.verb:set package 'gazebo_dev' build argument 'cmake_clean_cache' from command line to 'False'
+[0.580s] Level 5:colcon.colcon_core.verb:set package 'gazebo_dev' build argument 'cmake_clean_first' from command line to 'False'
+[0.580s] Level 5:colcon.colcon_core.verb:set package 'gazebo_dev' build argument 'cmake_force_configure' from command line to 'False'
+[0.580s] Level 5:colcon.colcon_core.verb:set package 'gazebo_dev' build argument 'ament_cmake_args' from command line to 'None'
+[0.580s] Level 5:colcon.colcon_core.verb:set package 'gazebo_dev' build argument 'catkin_cmake_args' from command line to 'None'
+[0.580s] Level 5:colcon.colcon_core.verb:set package 'gazebo_dev' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.580s] DEBUG:colcon.colcon_core.verb:Building package 'gazebo_dev' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tejasmk-tkp/Documents/Rudra/Interdomain/Rover/build/gazebo_dev', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tejasmk-tkp/Documents/Rudra/Interdomain/Rover/install/gazebo_dev', 'merge_install': False, 'path': '/home/tejasmk-tkp/Documents/Rudra/Interdomain/Rover/src/gazebo_ros_pkgs/gazebo_dev', 'symlink_install': False, 'test_result_base': None}
+[0.587s] Level 5:colcon.colcon_core.verb:set package 'gazebo_msgs' build argument 'cmake_args' from command line to 'None'
+[0.587s] Level 5:colcon.colcon_core.verb:set package 'gazebo_msgs' build argument 'cmake_target' from command line to 'None'
+[0.587s] Level 5:colcon.colcon_core.verb:set package 'gazebo_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.587s] Level 5:colcon.colcon_core.verb:set package 'gazebo_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.587s] Level 5:colcon.colcon_core.verb:set package 'gazebo_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.587s] Level 5:colcon.colcon_core.verb:set package 'gazebo_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.587s] Level 5:colcon.colcon_core.verb:set package 'gazebo_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.587s] Level 5:colcon.colcon_core.verb:set package 'gazebo_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.587s] Level 5:colcon.colcon_core.verb:set package 'gazebo_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.587s] DEBUG:colcon.colcon_core.verb:Building package 'gazebo_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tejasmk-tkp/Documents/Rudra/Interdomain/Rover/build/gazebo_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tejasmk-tkp/Documents/Rudra/Interdomain/Rover/install/gazebo_msgs', 'merge_install': False, 'path': '/home/tejasmk-tkp/Documents/Rudra/Interdomain/Rover/src/gazebo_ros_pkgs/gazebo_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.593s] Level 5:colcon.colcon_core.verb:set package 'matplotlib_cpp' build argument 'cmake_args' from command line to 'None'
+[0.593s] Level 5:colcon.colcon_core.verb:set package 'matplotlib_cpp' build argument 'cmake_target' from command line to 'None'
+[0.593s] Level 5:colcon.colcon_core.verb:set package 'matplotlib_cpp' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.594s] Level 5:colcon.colcon_core.verb:set package 'matplotlib_cpp' build argument 'cmake_clean_cache' from command line to 'False'
+[0.594s] Level 5:colcon.colcon_core.verb:set package 'matplotlib_cpp' build argument 'cmake_clean_first' from command line to 'False'
+[0.594s] Level 5:colcon.colcon_core.verb:set package 'matplotlib_cpp' build argument 'cmake_force_configure' from command line to 'False'
+[0.594s] Level 5:colcon.colcon_core.verb:set package 'matplotlib_cpp' build argument 'ament_cmake_args' from command line to 'None'
+[0.594s] Level 5:colcon.colcon_core.verb:set package 'matplotlib_cpp' build argument 'catkin_cmake_args' from command line to 'None'
+[0.594s] Level 5:colcon.colcon_core.verb:set package 'matplotlib_cpp' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.594s] DEBUG:colcon.colcon_core.verb:Building package 'matplotlib_cpp' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tejasmk-tkp/Documents/Rudra/Interdomain/Rover/build/matplotlib_cpp', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tejasmk-tkp/Documents/Rudra/Interdomain/Rover/install/matplotlib_cpp', 'merge_install': False, 'path': '/home/tejasmk-tkp/Documents/Rudra/Interdomain/Rover/src/Autonomous_Navigation/matplotlib-cpp', 'symlink_install': False, 'test_result_base': None}
+[0.600s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros' build argument 'cmake_args' from command line to 'None'
+[0.600s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros' build argument 'cmake_target' from command line to 'None'
+[0.600s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.600s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros' build argument 'cmake_clean_cache' from command line to 'False'
+[0.600s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros' build argument 'cmake_clean_first' from command line to 'False'
+[0.600s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros' build argument 'cmake_force_configure' from command line to 'False'
+[0.600s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros' build argument 'ament_cmake_args' from command line to 'None'
+[0.600s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros' build argument 'catkin_cmake_args' from command line to 'None'
+[0.600s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.600s] DEBUG:colcon.colcon_core.verb:Building package 'gazebo_ros' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tejasmk-tkp/Documents/Rudra/Interdomain/Rover/build/gazebo_ros', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tejasmk-tkp/Documents/Rudra/Interdomain/Rover/install/gazebo_ros', 'merge_install': False, 'path': '/home/tejasmk-tkp/Documents/Rudra/Interdomain/Rover/src/gazebo_ros_pkgs/gazebo_ros', 'symlink_install': False, 'test_result_base': None}
+[0.607s] Level 5:colcon.colcon_core.verb:set package 'gazebo_plugins' build argument 'cmake_args' from command line to 'None'
+[0.607s] Level 5:colcon.colcon_core.verb:set package 'gazebo_plugins' build argument 'cmake_target' from command line to 'None'
+[0.607s] Level 5:colcon.colcon_core.verb:set package 'gazebo_plugins' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.607s] Level 5:colcon.colcon_core.verb:set package 'gazebo_plugins' build argument 'cmake_clean_cache' from command line to 'False'
+[0.607s] Level 5:colcon.colcon_core.verb:set package 'gazebo_plugins' build argument 'cmake_clean_first' from command line to 'False'
+[0.607s] Level 5:colcon.colcon_core.verb:set package 'gazebo_plugins' build argument 'cmake_force_configure' from command line to 'False'
+[0.607s] Level 5:colcon.colcon_core.verb:set package 'gazebo_plugins' build argument 'ament_cmake_args' from command line to 'None'
+[0.607s] Level 5:colcon.colcon_core.verb:set package 'gazebo_plugins' build argument 'catkin_cmake_args' from command line to 'None'
+[0.607s] Level 5:colcon.colcon_core.verb:set package 'gazebo_plugins' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.607s] DEBUG:colcon.colcon_core.verb:Building package 'gazebo_plugins' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tejasmk-tkp/Documents/Rudra/Interdomain/Rover/build/gazebo_plugins', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tejasmk-tkp/Documents/Rudra/Interdomain/Rover/install/gazebo_plugins', 'merge_install': False, 'path': '/home/tejasmk-tkp/Documents/Rudra/Interdomain/Rover/src/gazebo_ros_pkgs/gazebo_plugins', 'symlink_install': False, 'test_result_base': None}
+[0.613s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros_pkgs' build argument 'cmake_args' from command line to 'None'
+[0.613s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros_pkgs' build argument 'cmake_target' from command line to 'None'
+[0.613s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros_pkgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.613s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros_pkgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.613s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros_pkgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.613s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros_pkgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.613s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros_pkgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.613s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros_pkgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.613s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros_pkgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.613s] DEBUG:colcon.colcon_core.verb:Building package 'gazebo_ros_pkgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tejasmk-tkp/Documents/Rudra/Interdomain/Rover/build/gazebo_ros_pkgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tejasmk-tkp/Documents/Rudra/Interdomain/Rover/install/gazebo_ros_pkgs', 'merge_install': False, 'path': '/home/tejasmk-tkp/Documents/Rudra/Interdomain/Rover/src/gazebo_ros_pkgs/gazebo_ros_pkgs', 'symlink_install': False, 'test_result_base': None}
+[0.619s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.627s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.627s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/tejasmk-tkp/Documents/Rudra/Interdomain/Rover/src/gazebo_ros_pkgs/gazebo_dev' with build type 'ament_cmake'
+[0.627s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/tejasmk-tkp/Documents/Rudra/Interdomain/Rover/src/gazebo_ros_pkgs/gazebo_dev'
+[0.634s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.634s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.634s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.648s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/tejasmk-tkp/Documents/Rudra/Interdomain/Rover/src/gazebo_ros_pkgs/gazebo_msgs' with build type 'ament_cmake'
+[0.648s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/tejasmk-tkp/Documents/Rudra/Interdomain/Rover/src/gazebo_ros_pkgs/gazebo_msgs'
+[0.655s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.655s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.669s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/tejasmk-tkp/Documents/Rudra/Interdomain/Rover/src/Autonomous_Navigation/matplotlib-cpp'
+[0.676s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.676s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.693s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tejasmk-tkp/Documents/Rudra/Interdomain/Rover/build/gazebo_dev': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron CONDA_PROMPT_MODIFIER=(rover_andes) /usr/bin/cmake --build /home/tejasmk-tkp/Documents/Rudra/Interdomain/Rover/build/gazebo_dev -- -j16 -l16
+[0.694s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tejasmk-tkp/Documents/Rudra/Interdomain/Rover/build/gazebo_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron CONDA_PROMPT_MODIFIER=(rover_andes) /usr/bin/cmake --build /home/tejasmk-tkp/Documents/Rudra/Interdomain/Rover/build/gazebo_msgs -- -j16 -l16
+[0.696s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tejasmk-tkp/Documents/Rudra/Interdomain/Rover/build/matplotlib_cpp': CONDA_PROMPT_MODIFIER=(rover_andes) /usr/bin/cmake --build /home/tejasmk-tkp/Documents/Rudra/Interdomain/Rover/build/matplotlib_cpp -- -j16 -l16
+[0.713s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tejasmk-tkp/Documents/Rudra/Interdomain/Rover/build/gazebo_dev' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron CONDA_PROMPT_MODIFIER=(rover_andes) /usr/bin/cmake --build /home/tejasmk-tkp/Documents/Rudra/Interdomain/Rover/build/gazebo_dev -- -j16 -l16
+[0.735s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tejasmk-tkp/Documents/Rudra/Interdomain/Rover/build/gazebo_dev': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron CONDA_PROMPT_MODIFIER=(rover_andes) /usr/bin/cmake --install /home/tejasmk-tkp/Documents/Rudra/Interdomain/Rover/build/gazebo_dev
+[0.740s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gazebo_dev)
+[0.741s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tejasmk-tkp/Documents/Rudra/Interdomain/Rover/build/gazebo_dev' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron CONDA_PROMPT_MODIFIER=(rover_andes) /usr/bin/cmake --install /home/tejasmk-tkp/Documents/Rudra/Interdomain/Rover/build/gazebo_dev
+[0.750s] Level 1:colcon.colcon_core.environment:checking '/home/tejasmk-tkp/Documents/Rudra/Interdomain/Rover/install/gazebo_dev' for CMake module files
+[0.750s] Level 1:colcon.colcon_core.environment:checking '/home/tejasmk-tkp/Documents/Rudra/Interdomain/Rover/install/gazebo_dev' for CMake config files
+[0.750s] Level 1:colcon.colcon_core.shell:create_environment_hook('gazebo_dev', 'cmake_prefix_path')
+[0.758s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tejasmk-tkp/Documents/Rudra/Interdomain/Rover/install/gazebo_dev/share/gazebo_dev/hook/cmake_prefix_path.ps1'
+[0.759s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tejasmk-tkp/Documents/Rudra/Interdomain/Rover/install/gazebo_dev/share/gazebo_dev/hook/cmake_prefix_path.dsv'
+[0.759s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tejasmk-tkp/Documents/Rudra/Interdomain/Rover/install/gazebo_dev/share/gazebo_dev/hook/cmake_prefix_path.sh'
+[0.759s] Level 1:colcon.colcon_core.environment:checking '/home/tejasmk-tkp/Documents/Rudra/Interdomain/Rover/install/gazebo_dev/bin'
+[0.759s] Level 1:colcon.colcon_core.environment:checking '/home/tejasmk-tkp/Documents/Rudra/Interdomain/Rover/install/gazebo_dev/lib/pkgconfig/gazebo_dev.pc'
+[0.760s] Level 1:colcon.colcon_core.environment:checking '/home/tejasmk-tkp/Documents/Rudra/Interdomain/Rover/install/gazebo_dev/lib/python3.10/site-packages'
+[0.760s] Level 1:colcon.colcon_core.environment:checking '/home/tejasmk-tkp/Documents/Rudra/Interdomain/Rover/install/gazebo_dev/bin'
+[0.767s] INFO:colcon.colcon_core.shell:Creating package script '/home/tejasmk-tkp/Documents/Rudra/Interdomain/Rover/install/gazebo_dev/share/gazebo_dev/package.ps1'
+[0.767s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tejasmk-tkp/Documents/Rudra/Interdomain/Rover/install/gazebo_dev/share/gazebo_dev/package.dsv'
+[0.768s] INFO:colcon.colcon_core.shell:Creating package script '/home/tejasmk-tkp/Documents/Rudra/Interdomain/Rover/install/gazebo_dev/share/gazebo_dev/package.sh'
+[0.768s] INFO:colcon.colcon_core.shell:Creating package script '/home/tejasmk-tkp/Documents/Rudra/Interdomain/Rover/install/gazebo_dev/share/gazebo_dev/package.bash'
+[0.768s] INFO:colcon.colcon_core.shell:Creating package script '/home/tejasmk-tkp/Documents/Rudra/Interdomain/Rover/install/gazebo_dev/share/gazebo_dev/package.zsh'
+[0.769s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tejasmk-tkp/Documents/Rudra/Interdomain/Rover/install/gazebo_dev/share/colcon-core/packages/gazebo_dev)
+[0.770s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tejasmk-tkp/Documents/Rudra/Interdomain/Rover/build/matplotlib_cpp' returned '0': CONDA_PROMPT_MODIFIER=(rover_andes) /usr/bin/cmake --build /home/tejasmk-tkp/Documents/Rudra/Interdomain/Rover/build/matplotlib_cpp -- -j16 -l16
+[0.795s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gazebo_dev)
+[0.806s] Level 1:colcon.colcon_core.environment:checking '/home/tejasmk-tkp/Documents/Rudra/Interdomain/Rover/install/gazebo_dev' for CMake module files
+[0.806s] Level 1:colcon.colcon_core.environment:checking '/home/tejasmk-tkp/Documents/Rudra/Interdomain/Rover/install/gazebo_dev' for CMake config files
+[0.807s] Level 1:colcon.colcon_core.shell:create_environment_hook('gazebo_dev', 'cmake_prefix_path')
+[0.814s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tejasmk-tkp/Documents/Rudra/Interdomain/Rover/install/gazebo_dev/share/gazebo_dev/hook/cmake_prefix_path.ps1'
+[0.814s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tejasmk-tkp/Documents/Rudra/Interdomain/Rover/install/gazebo_dev/share/gazebo_dev/hook/cmake_prefix_path.dsv'
+[0.814s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tejasmk-tkp/Documents/Rudra/Interdomain/Rover/install/gazebo_dev/share/gazebo_dev/hook/cmake_prefix_path.sh'
+[0.814s] Level 1:colcon.colcon_core.environment:checking '/home/tejasmk-tkp/Documents/Rudra/Interdomain/Rover/install/gazebo_dev/bin'
+[0.815s] Level 1:colcon.colcon_core.environment:checking '/home/tejasmk-tkp/Documents/Rudra/Interdomain/Rover/install/gazebo_dev/lib/pkgconfig/gazebo_dev.pc'
+[0.815s] Level 1:colcon.colcon_core.environment:checking '/home/tejasmk-tkp/Documents/Rudra/Interdomain/Rover/install/gazebo_dev/lib/python3.10/site-packages'
+[0.815s] Level 1:colcon.colcon_core.environment:checking '/home/tejasmk-tkp/Documents/Rudra/Interdomain/Rover/install/gazebo_dev/bin'
+[0.822s] INFO:colcon.colcon_core.shell:Creating package script '/home/tejasmk-tkp/Documents/Rudra/Interdomain/Rover/install/gazebo_dev/share/gazebo_dev/package.ps1'
+[0.822s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tejasmk-tkp/Documents/Rudra/Interdomain/Rover/install/gazebo_dev/share/gazebo_dev/package.dsv'
+[0.822s] INFO:colcon.colcon_core.shell:Creating package script '/home/tejasmk-tkp/Documents/Rudra/Interdomain/Rover/install/gazebo_dev/share/gazebo_dev/package.sh'
+[0.823s] INFO:colcon.colcon_core.shell:Creating package script '/home/tejasmk-tkp/Documents/Rudra/Interdomain/Rover/install/gazebo_dev/share/gazebo_dev/package.bash'
+[0.823s] INFO:colcon.colcon_core.shell:Creating package script '/home/tejasmk-tkp/Documents/Rudra/Interdomain/Rover/install/gazebo_dev/share/gazebo_dev/package.zsh'
+[0.823s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tejasmk-tkp/Documents/Rudra/Interdomain/Rover/install/gazebo_dev/share/colcon-core/packages/gazebo_dev)
+[0.825s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tejasmk-tkp/Documents/Rudra/Interdomain/Rover/build/matplotlib_cpp': CONDA_PROMPT_MODIFIER=(rover_andes) /usr/bin/cmake --install /home/tejasmk-tkp/Documents/Rudra/Interdomain/Rover/build/matplotlib_cpp
+[0.828s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(matplotlib_cpp)
+[0.829s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tejasmk-tkp/Documents/Rudra/Interdomain/Rover/build/matplotlib_cpp' returned '0': CONDA_PROMPT_MODIFIER=(rover_andes) /usr/bin/cmake --install /home/tejasmk-tkp/Documents/Rudra/Interdomain/Rover/build/matplotlib_cpp
+[0.836s] Level 1:colcon.colcon_core.environment:checking '/home/tejasmk-tkp/Documents/Rudra/Interdomain/Rover/install/matplotlib_cpp' for CMake module files
+[0.836s] Level 1:colcon.colcon_core.environment:checking '/home/tejasmk-tkp/Documents/Rudra/Interdomain/Rover/install/matplotlib_cpp' for CMake config files
+[0.836s] Level 1:colcon.colcon_core.shell:create_environment_hook('matplotlib_cpp', 'cmake_prefix_path')
+[0.843s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tejasmk-tkp/Documents/Rudra/Interdomain/Rover/install/matplotlib_cpp/share/matplotlib_cpp/hook/cmake_prefix_path.ps1'
+[0.844s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tejasmk-tkp/Documents/Rudra/Interdomain/Rover/install/matplotlib_cpp/share/matplotlib_cpp/hook/cmake_prefix_path.dsv'
+[0.844s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tejasmk-tkp/Documents/Rudra/Interdomain/Rover/install/matplotlib_cpp/share/matplotlib_cpp/hook/cmake_prefix_path.sh'
+[0.844s] Level 1:colcon.colcon_core.environment:checking '/home/tejasmk-tkp/Documents/Rudra/Interdomain/Rover/install/matplotlib_cpp/lib'
+[0.844s] Level 1:colcon.colcon_core.environment:checking '/home/tejasmk-tkp/Documents/Rudra/Interdomain/Rover/install/matplotlib_cpp/bin'
+[0.844s] Level 1:colcon.colcon_core.environment:checking '/home/tejasmk-tkp/Documents/Rudra/Interdomain/Rover/install/matplotlib_cpp/lib/pkgconfig/matplotlib_cpp.pc'
+[0.844s] Level 1:colcon.colcon_core.environment:checking '/home/tejasmk-tkp/Documents/Rudra/Interdomain/Rover/install/matplotlib_cpp/lib/python3.10/site-packages'
+[0.844s] Level 1:colcon.colcon_core.environment:checking '/home/tejasmk-tkp/Documents/Rudra/Interdomain/Rover/install/matplotlib_cpp/bin'
+[0.851s] INFO:colcon.colcon_core.shell:Creating package script '/home/tejasmk-tkp/Documents/Rudra/Interdomain/Rover/install/matplotlib_cpp/share/matplotlib_cpp/package.ps1'
+[0.852s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tejasmk-tkp/Documents/Rudra/Interdomain/Rover/install/matplotlib_cpp/share/matplotlib_cpp/package.dsv'
+[0.852s] INFO:colcon.colcon_core.shell:Creating package script '/home/tejasmk-tkp/Documents/Rudra/Interdomain/Rover/install/matplotlib_cpp/share/matplotlib_cpp/package.sh'
+[0.852s] INFO:colcon.colcon_core.shell:Creating package script '/home/tejasmk-tkp/Documents/Rudra/Interdomain/Rover/install/matplotlib_cpp/share/matplotlib_cpp/package.bash'
+[0.852s] INFO:colcon.colcon_core.shell:Creating package script '/home/tejasmk-tkp/Documents/Rudra/Interdomain/Rover/install/matplotlib_cpp/share/matplotlib_cpp/package.zsh'
+[0.852s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tejasmk-tkp/Documents/Rudra/Interdomain/Rover/install/matplotlib_cpp/share/colcon-core/packages/matplotlib_cpp)
+[0.915s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tejasmk-tkp/Documents/Rudra/Interdomain/Rover/build/gazebo_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron CONDA_PROMPT_MODIFIER=(rover_andes) /usr/bin/cmake --build /home/tejasmk-tkp/Documents/Rudra/Interdomain/Rover/build/gazebo_msgs -- -j16 -l16
+[1.975s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tejasmk-tkp/Documents/Rudra/Interdomain/Rover/build/gazebo_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron CONDA_PROMPT_MODIFIER=(rover_andes) /usr/bin/cmake --install /home/tejasmk-tkp/Documents/Rudra/Interdomain/Rover/build/gazebo_msgs
+[2.029s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gazebo_msgs)
+[2.029s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tejasmk-tkp/Documents/Rudra/Interdomain/Rover/build/gazebo_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron CONDA_PROMPT_MODIFIER=(rover_andes) /usr/bin/cmake --install /home/tejasmk-tkp/Documents/Rudra/Interdomain/Rover/build/gazebo_msgs
+[2.036s] Level 1:colcon.colcon_core.environment:checking '/home/tejasmk-tkp/Documents/Rudra/Interdomain/Rover/install/gazebo_msgs' for CMake module files
+[2.036s] Level 1:colcon.colcon_core.environment:checking '/home/tejasmk-tkp/Documents/Rudra/Interdomain/Rover/install/gazebo_msgs' for CMake config files
+[2.037s] Level 1:colcon.colcon_core.shell:create_environment_hook('gazebo_msgs', 'cmake_prefix_path')
+[2.043s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tejasmk-tkp/Documents/Rudra/Interdomain/Rover/install/gazebo_msgs/share/gazebo_msgs/hook/cmake_prefix_path.ps1'
+[2.043s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tejasmk-tkp/Documents/Rudra/Interdomain/Rover/install/gazebo_msgs/share/gazebo_msgs/hook/cmake_prefix_path.dsv'
+[2.043s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tejasmk-tkp/Documents/Rudra/Interdomain/Rover/install/gazebo_msgs/share/gazebo_msgs/hook/cmake_prefix_path.sh'
+[2.044s] Level 1:colcon.colcon_core.environment:checking '/home/tejasmk-tkp/Documents/Rudra/Interdomain/Rover/install/gazebo_msgs/lib'
+[2.044s] Level 1:colcon.colcon_core.shell:create_environment_hook('gazebo_msgs', 'ld_library_path_lib')
+[2.050s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tejasmk-tkp/Documents/Rudra/Interdomain/Rover/install/gazebo_msgs/share/gazebo_msgs/hook/ld_library_path_lib.ps1'
+[2.050s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tejasmk-tkp/Documents/Rudra/Interdomain/Rover/install/gazebo_msgs/share/gazebo_msgs/hook/ld_library_path_lib.dsv'
+[2.050s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tejasmk-tkp/Documents/Rudra/Interdomain/Rover/install/gazebo_msgs/share/gazebo_msgs/hook/ld_library_path_lib.sh'
+[2.050s] Level 1:colcon.colcon_core.environment:checking '/home/tejasmk-tkp/Documents/Rudra/Interdomain/Rover/install/gazebo_msgs/bin'
+[2.050s] Level 1:colcon.colcon_core.environment:checking '/home/tejasmk-tkp/Documents/Rudra/Interdomain/Rover/install/gazebo_msgs/lib/pkgconfig/gazebo_msgs.pc'
+[2.050s] Level 1:colcon.colcon_core.environment:checking '/home/tejasmk-tkp/Documents/Rudra/Interdomain/Rover/install/gazebo_msgs/lib/python3.10/site-packages'
+[2.051s] Level 1:colcon.colcon_core.shell:create_environment_hook('gazebo_msgs', 'pythonpath')
+[2.057s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tejasmk-tkp/Documents/Rudra/Interdomain/Rover/install/gazebo_msgs/share/gazebo_msgs/hook/pythonpath.ps1'
+[2.057s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tejasmk-tkp/Documents/Rudra/Interdomain/Rover/install/gazebo_msgs/share/gazebo_msgs/hook/pythonpath.dsv'
+[2.057s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tejasmk-tkp/Documents/Rudra/Interdomain/Rover/install/gazebo_msgs/share/gazebo_msgs/hook/pythonpath.sh'
+[2.057s] Level 1:colcon.colcon_core.environment:checking '/home/tejasmk-tkp/Documents/Rudra/Interdomain/Rover/install/gazebo_msgs/bin'
+[2.064s] INFO:colcon.colcon_core.shell:Creating package script '/home/tejasmk-tkp/Documents/Rudra/Interdomain/Rover/install/gazebo_msgs/share/gazebo_msgs/package.ps1'
+[2.064s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tejasmk-tkp/Documents/Rudra/Interdomain/Rover/install/gazebo_msgs/share/gazebo_msgs/package.dsv'
+[2.064s] INFO:colcon.colcon_core.shell:Creating package script '/home/tejasmk-tkp/Documents/Rudra/Interdomain/Rover/install/gazebo_msgs/share/gazebo_msgs/package.sh'
+[2.064s] INFO:colcon.colcon_core.shell:Creating package script '/home/tejasmk-tkp/Documents/Rudra/Interdomain/Rover/install/gazebo_msgs/share/gazebo_msgs/package.bash'
+[2.064s] INFO:colcon.colcon_core.shell:Creating package script '/home/tejasmk-tkp/Documents/Rudra/Interdomain/Rover/install/gazebo_msgs/share/gazebo_msgs/package.zsh'
+[2.064s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tejasmk-tkp/Documents/Rudra/Interdomain/Rover/install/gazebo_msgs/share/colcon-core/packages/gazebo_msgs)
+[3.131s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gazebo_msgs)
+[3.138s] Level 1:colcon.colcon_core.environment:checking '/home/tejasmk-tkp/Documents/Rudra/Interdomain/Rover/install/gazebo_msgs' for CMake module files
+[3.138s] Level 1:colcon.colcon_core.environment:checking '/home/tejasmk-tkp/Documents/Rudra/Interdomain/Rover/install/gazebo_msgs' for CMake config files
+[3.139s] Level 1:colcon.colcon_core.shell:create_environment_hook('gazebo_msgs', 'cmake_prefix_path')
+[3.145s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tejasmk-tkp/Documents/Rudra/Interdomain/Rover/install/gazebo_msgs/share/gazebo_msgs/hook/cmake_prefix_path.ps1'
+[3.145s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tejasmk-tkp/Documents/Rudra/Interdomain/Rover/install/gazebo_msgs/share/gazebo_msgs/hook/cmake_prefix_path.dsv'
+[3.145s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tejasmk-tkp/Documents/Rudra/Interdomain/Rover/install/gazebo_msgs/share/gazebo_msgs/hook/cmake_prefix_path.sh'
+[3.146s] Level 1:colcon.colcon_core.environment:checking '/home/tejasmk-tkp/Documents/Rudra/Interdomain/Rover/install/gazebo_msgs/lib'
+[3.146s] Level 1:colcon.colcon_core.shell:create_environment_hook('gazebo_msgs', 'ld_library_path_lib')
+[3.152s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tejasmk-tkp/Documents/Rudra/Interdomain/Rover/install/gazebo_msgs/share/gazebo_msgs/hook/ld_library_path_lib.ps1'
+[3.152s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tejasmk-tkp/Documents/Rudra/Interdomain/Rover/install/gazebo_msgs/share/gazebo_msgs/hook/ld_library_path_lib.dsv'
+[3.152s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tejasmk-tkp/Documents/Rudra/Interdomain/Rover/install/gazebo_msgs/share/gazebo_msgs/hook/ld_library_path_lib.sh'
+[3.152s] Level 1:colcon.colcon_core.environment:checking '/home/tejasmk-tkp/Documents/Rudra/Interdomain/Rover/install/gazebo_msgs/bin'
+[3.152s] Level 1:colcon.colcon_core.environment:checking '/home/tejasmk-tkp/Documents/Rudra/Interdomain/Rover/install/gazebo_msgs/lib/pkgconfig/gazebo_msgs.pc'
+[3.152s] Level 1:colcon.colcon_core.environment:checking '/home/tejasmk-tkp/Documents/Rudra/Interdomain/Rover/install/gazebo_msgs/lib/python3.10/site-packages'
+[3.152s] Level 1:colcon.colcon_core.shell:create_environment_hook('gazebo_msgs', 'pythonpath')
+[3.159s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tejasmk-tkp/Documents/Rudra/Interdomain/Rover/install/gazebo_msgs/share/gazebo_msgs/hook/pythonpath.ps1'
+[3.159s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tejasmk-tkp/Documents/Rudra/Interdomain/Rover/install/gazebo_msgs/share/gazebo_msgs/hook/pythonpath.dsv'
+[3.159s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tejasmk-tkp/Documents/Rudra/Interdomain/Rover/install/gazebo_msgs/share/gazebo_msgs/hook/pythonpath.sh'
+[3.159s] Level 1:colcon.colcon_core.environment:checking '/home/tejasmk-tkp/Documents/Rudra/Interdomain/Rover/install/gazebo_msgs/bin'
+[3.165s] INFO:colcon.colcon_core.shell:Creating package script '/home/tejasmk-tkp/Documents/Rudra/Interdomain/Rover/install/gazebo_msgs/share/gazebo_msgs/package.ps1'
+[3.166s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tejasmk-tkp/Documents/Rudra/Interdomain/Rover/install/gazebo_msgs/share/gazebo_msgs/package.dsv'
+[3.166s] INFO:colcon.colcon_core.shell:Creating package script '/home/tejasmk-tkp/Documents/Rudra/Interdomain/Rover/install/gazebo_msgs/share/gazebo_msgs/package.sh'
+[3.166s] INFO:colcon.colcon_core.shell:Creating package script '/home/tejasmk-tkp/Documents/Rudra/Interdomain/Rover/install/gazebo_msgs/share/gazebo_msgs/package.bash'
+[3.166s] INFO:colcon.colcon_core.shell:Creating package script '/home/tejasmk-tkp/Documents/Rudra/Interdomain/Rover/install/gazebo_msgs/share/gazebo_msgs/package.zsh'
+[3.167s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tejasmk-tkp/Documents/Rudra/Interdomain/Rover/install/gazebo_msgs/share/colcon-core/packages/gazebo_msgs)
+[3.167s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/tejasmk-tkp/Documents/Rudra/Interdomain/Rover/src/gazebo_ros_pkgs/gazebo_ros' with build type 'ament_cmake'
+[3.167s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/tejasmk-tkp/Documents/Rudra/Interdomain/Rover/src/gazebo_ros_pkgs/gazebo_ros'
+[3.173s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.173s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.192s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tejasmk-tkp/Documents/Rudra/Interdomain/Rover/build/gazebo_ros': AMENT_PREFIX_PATH=/home/tejasmk-tkp/Documents/Rudra/Interdomain/Rover/install/gazebo_msgs:/home/tejasmk-tkp/Documents/Rudra/Interdomain/Rover/install/gazebo_dev:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tejasmk-tkp/Documents/Rudra/Interdomain/Rover/install/gazebo_msgs:/home/tejasmk-tkp/Documents/Rudra/Interdomain/Rover/install/gazebo_dev:/path/to/your/gazebo/installation:/opt/ros/iron CONDA_PROMPT_MODIFIER=(rover_andes) LD_LIBRARY_PATH=/home/tejasmk-tkp/Documents/Rudra/Interdomain/Rover/install/gazebo_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/tejasmk-tkp/Documents/Rudra/Interdomain/Rover/install/gazebo_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake /home/tejasmk-tkp/Documents/Rudra/Interdomain/Rover/src/gazebo_ros_pkgs/gazebo_ros -DCMAKE_INSTALL_PREFIX=/home/tejasmk-tkp/Documents/Rudra/Interdomain/Rover/install/gazebo_ros
+[3.324s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tejasmk-tkp/Documents/Rudra/Interdomain/Rover/build/gazebo_ros' returned '1': AMENT_PREFIX_PATH=/home/tejasmk-tkp/Documents/Rudra/Interdomain/Rover/install/gazebo_msgs:/home/tejasmk-tkp/Documents/Rudra/Interdomain/Rover/install/gazebo_dev:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tejasmk-tkp/Documents/Rudra/Interdomain/Rover/install/gazebo_msgs:/home/tejasmk-tkp/Documents/Rudra/Interdomain/Rover/install/gazebo_dev:/path/to/your/gazebo/installation:/opt/ros/iron CONDA_PROMPT_MODIFIER=(rover_andes) LD_LIBRARY_PATH=/home/tejasmk-tkp/Documents/Rudra/Interdomain/Rover/install/gazebo_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/tejasmk-tkp/Documents/Rudra/Interdomain/Rover/install/gazebo_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake /home/tejasmk-tkp/Documents/Rudra/Interdomain/Rover/src/gazebo_ros_pkgs/gazebo_ros -DCMAKE_INSTALL_PREFIX=/home/tejasmk-tkp/Documents/Rudra/Interdomain/Rover/install/gazebo_ros
+[3.330s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gazebo_ros)
+[3.339s] Level 1:colcon.colcon_core.environment:checking '/home/tejasmk-tkp/Documents/Rudra/Interdomain/Rover/install/gazebo_ros' for CMake module files
+[3.339s] Level 1:colcon.colcon_core.environment:checking '/home/tejasmk-tkp/Documents/Rudra/Interdomain/Rover/install/gazebo_ros' for CMake config files
+[3.339s] Level 1:colcon.colcon_core.environment:checking '/home/tejasmk-tkp/Documents/Rudra/Interdomain/Rover/install/gazebo_ros/bin'
+[3.339s] Level 1:colcon.colcon_core.environment:checking '/home/tejasmk-tkp/Documents/Rudra/Interdomain/Rover/install/gazebo_ros/lib/pkgconfig/gazebo_ros.pc'
+[3.339s] Level 1:colcon.colcon_core.environment:checking '/home/tejasmk-tkp/Documents/Rudra/Interdomain/Rover/install/gazebo_ros/lib/python3.10/site-packages'
+[3.339s] Level 1:colcon.colcon_core.environment:checking '/home/tejasmk-tkp/Documents/Rudra/Interdomain/Rover/install/gazebo_ros/bin'
+[3.346s] INFO:colcon.colcon_core.shell:Creating package script '/home/tejasmk-tkp/Documents/Rudra/Interdomain/Rover/install/gazebo_ros/share/gazebo_ros/package.ps1'
+[3.346s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tejasmk-tkp/Documents/Rudra/Interdomain/Rover/install/gazebo_ros/share/gazebo_ros/package.dsv'
+[3.347s] INFO:colcon.colcon_core.shell:Creating package script '/home/tejasmk-tkp/Documents/Rudra/Interdomain/Rover/install/gazebo_ros/share/gazebo_ros/package.sh'
+[3.347s] INFO:colcon.colcon_core.shell:Creating package script '/home/tejasmk-tkp/Documents/Rudra/Interdomain/Rover/install/gazebo_ros/share/gazebo_ros/package.bash'
+[3.347s] INFO:colcon.colcon_core.shell:Creating package script '/home/tejasmk-tkp/Documents/Rudra/Interdomain/Rover/install/gazebo_ros/share/gazebo_ros/package.zsh'
+[3.347s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tejasmk-tkp/Documents/Rudra/Interdomain/Rover/install/gazebo_ros/share/colcon-core/packages/gazebo_ros)
+[3.358s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[3.358s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[3.358s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '1'
+[3.358s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[3.369s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[3.369s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[3.369s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[3.378s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[3.385s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/tejasmk-tkp/Documents/Rudra/Interdomain/Rover/install/local_setup.ps1'
+[3.386s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/tejasmk-tkp/Documents/Rudra/Interdomain/Rover/install/_local_setup_util_ps1.py'
+[3.386s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/tejasmk-tkp/Documents/Rudra/Interdomain/Rover/install/setup.ps1'
+[3.395s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/tejasmk-tkp/Documents/Rudra/Interdomain/Rover/install/local_setup.sh'
+[3.396s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/tejasmk-tkp/Documents/Rudra/Interdomain/Rover/install/_local_setup_util_sh.py'
+[3.396s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/tejasmk-tkp/Documents/Rudra/Interdomain/Rover/install/setup.sh'
+[3.404s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/tejasmk-tkp/Documents/Rudra/Interdomain/Rover/install/local_setup.bash'
+[3.404s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/tejasmk-tkp/Documents/Rudra/Interdomain/Rover/install/setup.bash'
+[3.411s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/tejasmk-tkp/Documents/Rudra/Interdomain/Rover/install/local_setup.zsh'
+[3.411s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/tejasmk-tkp/Documents/Rudra/Interdomain/Rover/install/setup.zsh'

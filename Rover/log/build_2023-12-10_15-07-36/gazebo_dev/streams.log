@@ -1,0 +1,21 @@
+[0.075s] Invoking command in '/home/tejasmk-tkp/Documents/Rudra/Interdomain/Rover/build/gazebo_dev': CMAKE_PREFIX_PATH=/opt/ros/iron CONDA_PROMPT_MODIFIER=(rover_andes) /usr/bin/cmake --build /home/tejasmk-tkp/Documents/Rudra/Interdomain/Rover/build/gazebo_dev -- -j16 -l16
+[0.168s] Invoked command in '/home/tejasmk-tkp/Documents/Rudra/Interdomain/Rover/build/gazebo_dev' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron CONDA_PROMPT_MODIFIER=(rover_andes) /usr/bin/cmake --build /home/tejasmk-tkp/Documents/Rudra/Interdomain/Rover/build/gazebo_dev -- -j16 -l16
+[0.193s] Invoking command in '/home/tejasmk-tkp/Documents/Rudra/Interdomain/Rover/build/gazebo_dev': CMAKE_PREFIX_PATH=/opt/ros/iron CONDA_PROMPT_MODIFIER=(rover_andes) /usr/bin/cmake --install /home/tejasmk-tkp/Documents/Rudra/Interdomain/Rover/build/gazebo_dev
+[0.198s] -- Install configuration: ""
+[0.199s] -- Up-to-date: /home/tejasmk-tkp/Documents/Rudra/Interdomain/Rover/install/gazebo_dev/share/ament_index/resource_index/package_run_dependencies/gazebo_dev
+[0.200s] -- Up-to-date: /home/tejasmk-tkp/Documents/Rudra/Interdomain/Rover/install/gazebo_dev/share/ament_index/resource_index/parent_prefix_path/gazebo_dev
+[0.201s] -- Up-to-date: /home/tejasmk-tkp/Documents/Rudra/Interdomain/Rover/install/gazebo_dev/share/gazebo_dev/environment/ament_prefix_path.sh
+[0.201s] -- Up-to-date: /home/tejasmk-tkp/Documents/Rudra/Interdomain/Rover/install/gazebo_dev/share/gazebo_dev/environment/ament_prefix_path.dsv
+[0.201s] -- Up-to-date: /home/tejasmk-tkp/Documents/Rudra/Interdomain/Rover/install/gazebo_dev/share/gazebo_dev/environment/path.sh
+[0.201s] -- Up-to-date: /home/tejasmk-tkp/Documents/Rudra/Interdomain/Rover/install/gazebo_dev/share/gazebo_dev/environment/path.dsv
+[0.201s] -- Up-to-date: /home/tejasmk-tkp/Documents/Rudra/Interdomain/Rover/install/gazebo_dev/share/gazebo_dev/local_setup.bash
+[0.201s] -- Up-to-date: /home/tejasmk-tkp/Documents/Rudra/Interdomain/Rover/install/gazebo_dev/share/gazebo_dev/local_setup.sh
+[0.201s] -- Up-to-date: /home/tejasmk-tkp/Documents/Rudra/Interdomain/Rover/install/gazebo_dev/share/gazebo_dev/local_setup.zsh
+[0.201s] -- Up-to-date: /home/tejasmk-tkp/Documents/Rudra/Interdomain/Rover/install/gazebo_dev/share/gazebo_dev/local_setup.dsv
+[0.201s] -- Installing: /home/tejasmk-tkp/Documents/Rudra/Interdomain/Rover/install/gazebo_dev/share/gazebo_dev/package.dsv
+[0.202s] -- Up-to-date: /home/tejasmk-tkp/Documents/Rudra/Interdomain/Rover/install/gazebo_dev/share/ament_index/resource_index/packages/gazebo_dev
+[0.202s] -- Up-to-date: /home/tejasmk-tkp/Documents/Rudra/Interdomain/Rover/install/gazebo_dev/share/gazebo_dev/cmake/gazebo_dev-extras.cmake
+[0.202s] -- Up-to-date: /home/tejasmk-tkp/Documents/Rudra/Interdomain/Rover/install/gazebo_dev/share/gazebo_dev/cmake/gazebo_devConfig.cmake
+[0.202s] -- Up-to-date: /home/tejasmk-tkp/Documents/Rudra/Interdomain/Rover/install/gazebo_dev/share/gazebo_dev/cmake/gazebo_devConfig-version.cmake
+[0.202s] -- Up-to-date: /home/tejasmk-tkp/Documents/Rudra/Interdomain/Rover/install/gazebo_dev/share/gazebo_dev/package.xml
+[0.203s] Invoked command in '/home/tejasmk-tkp/Documents/Rudra/Interdomain/Rover/build/gazebo_dev' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron CONDA_PROMPT_MODIFIER=(rover_andes) /usr/bin/cmake --install /home/tejasmk-tkp/Documents/Rudra/Interdomain/Rover/build/gazebo_dev

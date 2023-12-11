@@ -1,0 +1,63 @@
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter Development Development.Module Development.Embed 
+-- Found Python3: /usr/include/python3.10 (found version "3.10.12") found components: NumPy Interpreter Development.Module 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/tejasmk-tkp/Documents/Rudra/Interdomain/Rover/build/matplotlib_cpp
+[  9%] [32mBuilding CXX object CMakeFiles/modern.dir/examples/modern.cpp.o[0m
+[  3%] [32mBuilding CXX object CMakeFiles/basic.dir/examples/basic.cpp.o[0m
+[  9%] [32mBuilding CXX object CMakeFiles/animation.dir/examples/animation.cpp.o[0m
+[ 12%] [32mBuilding CXX object CMakeFiles/minimal.dir/examples/minimal.cpp.o[0m
+[ 15%] [32mBuilding CXX object CMakeFiles/nonblock.dir/examples/nonblock.cpp.o[0m
+[ 18%] [32mBuilding CXX object CMakeFiles/bar.dir/examples/bar.cpp.o[0m
+[ 21%] [32mBuilding CXX object CMakeFiles/fill.dir/examples/fill.cpp.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/update.dir/examples/update.cpp.o[0m
+[ 28%] [32mBuilding CXX object CMakeFiles/lines3d.dir/examples/lines3d.cpp.o[0m
+[ 31%] [32mBuilding CXX object CMakeFiles/surface.dir/examples/surface.cpp.o[0m
+[ 34%] [32mBuilding CXX object CMakeFiles/fill_inbetween.dir/examples/fill_inbetween.cpp.o[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/colorbar.dir/examples/colorbar.cpp.o[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/contour.dir/examples/contour.cpp.o[0m
+[ 43%] [32mBuilding CXX object CMakeFiles/xkcd.dir/examples/xkcd.cpp.o[0m
+[ 46%] [32mBuilding CXX object CMakeFiles/spy.dir/examples/spy.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/subplot2grid.dir/examples/subplot2grid.cpp.o[0m
+[ 53%] [32m[1mLinking CXX executable bin/subplot2grid[0m
+[ 56%] [32m[1mLinking CXX executable bin/bar[0m
+[ 59%] [32m[1mLinking CXX executable bin/modern[0m
+[ 62%] [32m[1mLinking CXX executable bin/xkcd[0m
+[ 65%] [32m[1mLinking CXX executable bin/basic[0m
+[ 68%] [32m[1mLinking CXX executable bin/nonblock[0m
+[ 71%] [32m[1mLinking CXX executable bin/animation[0m
+[ 75%] [32m[1mLinking CXX executable bin/lines3d[0m
+[ 78%] [32m[1mLinking CXX executable bin/colorbar[0m
+[ 81%] [32m[1mLinking CXX executable bin/fill_inbetween[0m
+[ 87%] [32m[1mLinking CXX executable bin/contour[0m
+[ 87%] [32m[1mLinking CXX executable bin/fill[0m
+[ 93%] [32m[1mLinking CXX executable bin/update[0m
+[ 93%] [32m[1mLinking CXX executable bin/surface[0m
+[ 96%] [32m[1mLinking CXX executable bin/spy[0m
+[100%] [32m[1mLinking CXX executable bin/minimal[0m
+[100%] Built target colorbar
+[100%] Built target subplot2grid
+[100%] Built target bar
+[100%] Built target modern
+[100%] Built target basic
+[100%] Built target xkcd
+[100%] Built target animation
+[100%] Built target nonblock
+[100%] Built target lines3d
+[100%] Built target fill_inbetween
+[100%] Built target spy
+[100%] Built target surface
+[100%] Built target update
+[100%] Built target contour
+[100%] Built target fill
+[100%] Built target minimal
+-- Install configuration: ""
+-- Installing: /home/tejasmk-tkp/Documents/Rudra/Interdomain/Rover/install/matplotlib_cpp/include/matplotlibcpp.h
+-- Installing: /home/tejasmk-tkp/Documents/Rudra/Interdomain/Rover/install/matplotlib_cpp/lib/matplotlib_cpp/cmake/matplotlib_cppTargets.cmake
+-- Installing: /home/tejasmk-tkp/Documents/Rudra/Interdomain/Rover/install/matplotlib_cpp/lib/matplotlib_cpp/cmake/matplotlib_cppConfig.cmake

@@ -1,0 +1,36 @@
+[35m[1mConsolidate compiler generated dependencies of target basic[0m
+[35m[1mConsolidate compiler generated dependencies of target modern[0m
+[35m[1mConsolidate compiler generated dependencies of target minimal[0m
+[35m[1mConsolidate compiler generated dependencies of target animation[0m
+[35m[1mConsolidate compiler generated dependencies of target nonblock[0m
+[35m[1mConsolidate compiler generated dependencies of target fill[0m
+[35m[1mConsolidate compiler generated dependencies of target fill_inbetween[0m
+[35m[1mConsolidate compiler generated dependencies of target update[0m
+[35m[1mConsolidate compiler generated dependencies of target xkcd[0m
+[35m[1mConsolidate compiler generated dependencies of target subplot2grid[0m
+[35m[1mConsolidate compiler generated dependencies of target bar[0m
+[35m[1mConsolidate compiler generated dependencies of target colorbar[0m
+[35m[1mConsolidate compiler generated dependencies of target surface[0m
+[35m[1mConsolidate compiler generated dependencies of target lines3d[0m
+[35m[1mConsolidate compiler generated dependencies of target contour[0m
+[35m[1mConsolidate compiler generated dependencies of target spy[0m
+[ 12%] Built target basic
+[ 21%] Built target subplot2grid
+[ 31%] Built target fill
+[ 34%] Built target bar
+[ 46%] Built target fill_inbetween
+[ 50%] Built target update
+[ 46%] Built target nonblock
+[ 50%] Built target minimal
+[ 59%] Built target surface
+[ 62%] Built target modern
+[ 75%] Built target animation
+[ 75%] Built target colorbar
+[ 81%] Built target lines3d
+[ 87%] Built target xkcd
+[ 93%] Built target spy
+[100%] Built target contour
+-- Install configuration: ""
+-- Up-to-date: /home/tejasmk-tkp/Documents/Rudra/Interdomain/Rover/install/matplotlib_cpp/include/matplotlibcpp.h
+-- Up-to-date: /home/tejasmk-tkp/Documents/Rudra/Interdomain/Rover/install/matplotlib_cpp/lib/matplotlib_cpp/cmake/matplotlib_cppTargets.cmake
+-- Up-to-date: /home/tejasmk-tkp/Documents/Rudra/Interdomain/Rover/install/matplotlib_cpp/lib/matplotlib_cpp/cmake/matplotlib_cppConfig.cmake
