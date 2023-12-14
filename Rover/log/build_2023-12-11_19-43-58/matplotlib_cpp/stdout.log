@@ -1,0 +1,20 @@
+[  6%] Built target xkcd
+[ 12%] Built target nonblock
+[ 18%] Built target modern
+[ 31%] Built target minimal
+[ 31%] Built target contour
+[ 43%] Built target bar
+[ 43%] Built target animation
+[ 50%] Built target fill
+[ 56%] Built target basic
+[ 65%] Built target colorbar
+[ 68%] Built target spy
+[ 75%] Built target fill_inbetween
+[ 81%] Built target update
+[ 93%] Built target lines3d
+[ 93%] Built target subplot2grid
+[100%] Built target surface
+-- Install configuration: ""
+-- Up-to-date: /home/tejasmk-tkp/Documents/Rudra/Interdomain/Rover/install/matplotlib_cpp/include/matplotlibcpp.h
+-- Up-to-date: /home/tejasmk-tkp/Documents/Rudra/Interdomain/Rover/install/matplotlib_cpp/lib/matplotlib_cpp/cmake/matplotlib_cppTargets.cmake
+-- Up-to-date: /home/tejasmk-tkp/Documents/Rudra/Interdomain/Rover/install/matplotlib_cpp/lib/matplotlib_cpp/cmake/matplotlib_cppConfig.cmake
