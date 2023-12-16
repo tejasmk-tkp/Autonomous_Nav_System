@@ -1,5 +1,4 @@
 import matplotlib.pyplot as plt
-import numpy as np
 
 def grassfire_algorithm(grid, start, destination):
     
@@ -35,38 +34,63 @@ def grassfire_algorithm(grid, start, destination):
     return grid
 
 def extract_path(resultant_grid, start, destination):
-    path = [destination]    #Initialize list path with destination as its first member
-    current = destination   #Set current position as destination
-    while current != start:
-        row, col = current
-        current_val = resultant_grid[row][col]    #retrive distance of current cell
-        neighbours = [
+    
+    destination_value = resultant_grid[destination[0]][destination[1]]
+    if destination_value <= 0:
+        path=[]
+        #print('path not found')
+        return path
+
+    else:
+        path = [destination]    #Initialize list path with destination as its first member
+        current = destination   #Set current position as destination
+        while current != start:
+            row, col = current
+            current_val = resultant_grid[row][col]    #retrive distance of current cell
+            neighbours = [
                 (row - 1, col),     #Up
                 (row + 1, col),     #Down
                 (row, col - 1),     #Left
                 (row, col + 1)      #Right
                 ]
-        for neighbour in neighbours:
-            n_row, n_col = neighbour
-            if 0 <= n_row < len(resultant_grid) and 0 <= n_col < len(resultant_grid[0]):    #check if neighbour falls within grid
-                if resultant_grid[n_row][n_col] == current_val - 1:
-                    path.append(neighbour)
-                    current = neighbour
-                    break
+
+            for neighbour in neighbours:
+                n_row, n_col = neighbour
+                if 0 <= n_row < len(resultant_grid) and 0 <= n_col < len(resultant_grid[0]):    #check if neighbour falls within grid
+                    if resultant_grid[n_row][n_col] == current_val - 1:
+                        path.append(neighbour)
+                        current = neighbour
+                        break
     
     return path[::-1]
 
 def visualize_path(grid, path, start, destination):
-    grid_array = np.array(grid)
-    obstacles = np.zeros_like(grid_array)
-    path_array = np.zeros_like(grid_array)
+    rows = len(grid)
+    cols = len(grid[0])
 
-    obstacles[grid_array == -1] = 1
+    fig, ax = plt.subplots()
 
-    for node in path:
+    for r in range(rows):
+        for c in range(cols):
+            if grid[r][c] == -1: #Plot obstacles in red
+                ax.add_patch(plt.Rectangle((c, r), 1, 1, color = 'red'))
+            elif (r, c) in path and (r, c) != start and (r, c) != destination:    #Plot path in blue
+                ax.add_patch(plt.Rectangle((c, r), 1, 1, color = 'blue'))
+            elif (r, c) == start:   #Mark start in black
+                ax.add_patch(plt.Rectangle((c, r), 1, 1, color = 'black'))
+            elif (r, c) == destination: #Mark destination in green
+                ax.add_patch(plt.Rectangle((c, r), 1, 1, color = 'green'))
+            else:
+                ax.add_patch(plt.Rectangle((c, r), 1, 1, color = 'white'))
 
+    ax.set_aspect('equal')
+    ax.set_xlim(0, cols)
+    ax.set_ylim(0, rows)
 
-grid = [[0, 0, 0, 0], [-1, -1, -1, 0], [0, -1, 0, 0], [0, 0, 0, 0]]    # 0 represents traversable path and -1 represents and obstacle
+    plt.grid(True)
+    plt.show()
+
+'''grid = [[0, 0, 0, 0], [-1, -1, -1, 0], [0, -1, 0, 0]]    # 0 represents traversable path and -1 represents and obstacle
 start = (0, 0)
 destination = (2, 2)
 
@@ -79,3 +103,5 @@ path = extract_path(result, start, destination)
 
 for row in path:
     print(row)
+
+visualize_path(grid, path, start, destination)'''
