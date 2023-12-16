@@ -1,0 +1,72 @@
+1. Basic grid with obstacles, start, and destination:
+grid = [
+    [0, 0, -1, 0],
+    [-1, 0, 0, 0],
+    [0, -1, 0, 0],
+    [0, 0, 0, 0]
+]
+start = (0, 0)
+destination = (3, 3)
+
+Passed!
+
+2. No path available from start to destination:
+grid = [
+    [0, -1, 0, -1],
+    [0, -1, 0, -1],
+    [0, -1, 0, -1],
+    [0, -1, 0, -1]
+]
+start = (0, 0)
+destination = (3, 3)
+
+Passed!
+
+3. Grid with only start and destination:
+grid = [
+    [0, 0, 0, 0],
+    [0, 0, 0, 0],
+    [0, 0, 0, 0],
+    [0, 0, 0, 0]
+]
+start = (0, 0)
+destination = (3, 3)
+
+Passed!
+
+4. Grid with a single obstacle:
+grid = [
+    [0, 0, 0, 0],
+    [0, 0, -1, 0],
+    [0, 0, 0, 0],
+    [0, 0, 0, 0]
+]
+start = (0, 0)
+destination = (3, 3)
+
+Passed!
+
+5. Large grid with various obstacles and a complex path:
+grid = [
+    [0, 0, -1, 0, 0],
+    [0, -1, 0, -1, 0],
+    [0, 0, -1, 0, 0],
+    [0, -1, 0, -1, 0],
+    [0, 0, 0, 0, 0]
+]
+start = (0, 0)
+destination = (4, 4)
+
+Passed!
+
+6. grid = [
+    [0, 0, -1, 0, 0],
+    [0, -1, 0, -1, 0],
+    [0, 0, -1, 0, 0],
+    [0, -1, 0, -1, 0],
+    [0, 0, 0, 0, 0]
+]
+start = (0, 0)
+destination = (0, 3) or (0, 4)
+
+Failed!
