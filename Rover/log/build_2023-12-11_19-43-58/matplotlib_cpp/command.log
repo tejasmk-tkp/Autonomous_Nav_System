@@ -1,4 +1,0 @@
-Invoking command in '/home/tejasmk-tkp/Documents/Rudra/Interdomain/Rover/build/matplotlib_cpp': /usr/bin/cmake --build /home/tejasmk-tkp/Documents/Rudra/Interdomain/Rover/build/matplotlib_cpp -- -j16 -l16
-Invoked command in '/home/tejasmk-tkp/Documents/Rudra/Interdomain/Rover/build/matplotlib_cpp' returned '0': /usr/bin/cmake --build /home/tejasmk-tkp/Documents/Rudra/Interdomain/Rover/build/matplotlib_cpp -- -j16 -l16
-Invoking command in '/home/tejasmk-tkp/Documents/Rudra/Interdomain/Rover/build/matplotlib_cpp': /usr/bin/cmake --install /home/tejasmk-tkp/Documents/Rudra/Interdomain/Rover/build/matplotlib_cpp
-Invoked command in '/home/tejasmk-tkp/Documents/Rudra/Interdomain/Rover/build/matplotlib_cpp' returned '0': /usr/bin/cmake --install /home/tejasmk-tkp/Documents/Rudra/Interdomain/Rover/build/matplotlib_cpp
