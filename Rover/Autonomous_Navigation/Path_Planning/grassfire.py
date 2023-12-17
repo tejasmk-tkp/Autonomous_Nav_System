@@ -73,13 +73,13 @@ def visualize_path(grid, path, start, destination):
     for r in range(rows):
         for c in range(cols):
             if grid[r][c] == -1: #Plot obstacles in red
-                ax.add_patch(plt.Rectangle((c, r), 1, 1, color = 'red'))
+                ax.add_patch(plt.Rectangle((c, r), 1, 1, color = 'black'))
             elif (r, c) in path and (r, c) != start and (r, c) != destination:    #Plot path in blue
                 ax.add_patch(plt.Rectangle((c, r), 1, 1, color = 'blue'))
             elif (r, c) == start:   #Mark start in black
-                ax.add_patch(plt.Rectangle((c, r), 1, 1, color = 'black'))
-            elif (r, c) == destination: #Mark destination in green
                 ax.add_patch(plt.Rectangle((c, r), 1, 1, color = 'green'))
+            elif (r, c) == destination: #Mark destination in green
+                ax.add_patch(plt.Rectangle((c, r), 1, 1, color = 'red'))
             else:
                 ax.add_patch(plt.Rectangle((c, r), 1, 1, color = 'white'))
 
