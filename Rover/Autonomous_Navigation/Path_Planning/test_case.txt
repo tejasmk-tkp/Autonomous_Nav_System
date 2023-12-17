@@ -69,4 +69,26 @@ Passed!
 start = (0, 0)
 destination = (0, 3) or (0, 4)
 
+Passed!
+
+7. Grid with more than one path
+grid = [
+    [0, 0, 0, 0, 0],
+    [0, -1, -1, 0, 0],
+    [0, -1, -1, 0, 0],
+    [0, 0, 0, 0, 0],
+]
+start = (0, 0)
+destination = (3, 4)
+
 Failed!
+
+8. Grid with order (m, n)
+grid = [
+    [0, 0, 0],
+    [0, -1, 0],
+    [-1, 0, 0],
+    [0, 0, 0],
+]
+start = (0, 0)
+destination = (3, 2)
