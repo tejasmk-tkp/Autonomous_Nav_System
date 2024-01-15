@@ -140,21 +140,3 @@ def dijkstra(grid, start, destination):
     path.reverse()
 
     return path
-
-
-
-'''grid = [[0, 0, 0, 0], [-1, -1, -1, 0], [0, -1, 0, 0]]    # 0 represents traversable path and -1 represents and obstacle
-start = (0, 0)
-destination = (2, 2)
-
-result = grassfire_algorithm(grid, start, destination)
-
-for row in result:
-    print(row)
-
-path = extract_path(result, start, destination)
-
-for row in path:
-    print(row)
-
-visualize_path(grid, path, start, destination)'''
